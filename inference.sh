@@ -1,0 +1,11 @@
+accelerate launch --main_process_port 25539 \
+--config_file configs/1_16fp.yaml neural_gaffer_inference_real_data.py \
+--output_dir logs/training \
+--mixed_precision fp16 \
+--resume_from_checkpoint checkpoint-160000 \
+--save_dir ./real_data_relighting_young-hand_rotate \
+--total_view 120 \
+--lighting_per_view 1 \
+--val_img_dir ./preprocessed_data_young-hand_rotate/img \
+--val_lighting_dir ./preprocessed_lighting_data_survey7 \
+--pretrained_model_name_or_path pretrained/zero123-165000

@@ -1,0 +1,1 @@
+python ./generateComposite_boy.py --img_dir ./demo3 --sam_ckpt ./models/checkpoints/sam_vit_h_4b8939.pth --out_dir ./preprocessed_data3  --gpu_idx 0

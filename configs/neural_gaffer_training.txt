@@ -1,0 +1,14 @@
+pretrained_model_name_or_path = kxic/zero123-xl
+output_dir = logs/neural_gaffer_training
+gradient_accumulation_steps = 1
+mixed_precision = fp16 
+training_batch_size = 64
+dataloader_num_workers = 32
+num_validation_images = 2
+num_validation_batches = 30
+
+
+train_img_dir = /home/jz927/Documents/relighting/neuralgaffer/training_img_data_subset
+train_lighting_dir = /home/jz927/Documents/relighting/neuralgaffer/training_lighting_data_subset
+val_lighting_dir = /home/jz927/Documents/relighting/neuralgaffer/training_lighting_data_subset
+val_img_dir = /home/jz927/Documents/relighting/neuralgaffer/validation

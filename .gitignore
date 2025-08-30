@@ -1,0 +1,25 @@
+# --- Project outputs & large data ---
+logs/
+models/
+video_survey/
+
+# --- Preprocessed & training data ---
+preprocessed_data_young-hand_rotate/
+preprocessed_lighting_data_survey7/
+real_data_relighting_young-hand_rotate/
+pretrained/
+
+# --- Python environment ---
+venv/
+
+# --- Python cache ---
+__pycache__/
+*.pyc
+
+# --- Other common ignores ---
+*.mp4
+*.zip
+*.pth
+*.ckpt
+.DS_Store
+
