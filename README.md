@@ -1,10 +1,10 @@
 # Relighting Any Jewelry via Diffusion 
 
-## [Input](What you need to prepare)
+## [Input](Inputs)
 ### Jewelry Image
 ### HDR
 
-## [Output](What you expect to get)
+## [Output](Outputs)
 ### Relit Jewelry Image
 
 ## [Preview](gifs)
