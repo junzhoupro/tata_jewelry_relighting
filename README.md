@@ -125,7 +125,6 @@ Replace all the dir location to your local dir.
 Put the input images under the `--img_dir` folder and run the following command to segment the foreground.  
 The preprocessed data will be saved in `--out_dir`.  
 
-Here, we borrow code from One-2-3-45.
 
 *Note: If you input images have masks and you don't want to do rescale and recenter, you can skip this step by manually saving the three-channel foreground and mask of each input image in the `{$out_dir}/img` and `{$out_dir}/mask` folders, respectively.*
 
